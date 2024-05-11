@@ -18,5 +18,4 @@ def main():
             print("Error: Invalid command. Please enter 'help' or 'exit'.")
 
 
-if name == "main":
-    main()
+
