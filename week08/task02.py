@@ -1,5 +1,12 @@
+# Task-1 
+def display_menu():
+    print("\nCOIT20245 - Assignment 2")
+    print("\nMenu : ")
+    print("a. Help Menu")
+    print("b. Exit")
+
 def main():
-  
+
     display_menu()
 
     while True:
@@ -10,13 +17,9 @@ def main():
         elif user_input.lower() == "exit":
             print("Exiting the program.")
             break
-        elif user_input.lower() == "species":
-            city = input("Enter the city: ")
-            species_list = search_species(city)
-            display_species(species_list)
         else:
             print("Error: Invalid command. Please enter 'help' or 'exit'.")
 
 
-if name == "main":
+if _name_ == "_main_":
     main()
