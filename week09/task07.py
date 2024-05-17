@@ -110,5 +110,5 @@ def main():
             print("Error: Invalid command")
 
 
-if _name_ == "_main_":
+if __name__ == "__main__":
     main()
