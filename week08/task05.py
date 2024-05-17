@@ -94,5 +94,5 @@ def main():
             print("Error: Invalid command. Please enter 'help' or 'exit'.")
 
 
-if name == "main":
+if __name__ == "__main__":
     main()
