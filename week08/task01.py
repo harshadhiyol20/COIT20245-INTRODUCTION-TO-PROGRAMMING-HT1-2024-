@@ -4,5 +4,5 @@ def display_menu():
     print("a. Help Menu")
     print("b. Exit")
 
-if __name__ == "__main__":
+if _name_ == "_main_":
     display_menu()
